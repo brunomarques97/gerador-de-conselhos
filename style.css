@@ -1,0 +1,18 @@
+.caixa {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: black;
+    align-items: center;
+  }
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+label{
+    size: 20px;
+    color: white;
+}
