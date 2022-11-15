@@ -7,3 +7,6 @@ mensagem.addEventListener('click',()=>{
         document.getElementById('mensagem').innerText=y.slip.advice
     );
 })
+fetch('https://www.googleapis.com/auth/cloud-translation').then(x=>
+    console.log(x)
+);
