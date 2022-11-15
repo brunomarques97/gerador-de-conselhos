@@ -1,9 +1,9 @@
 const url="https://api.adviceslip.com/advice"
-const mensagem=document.querySelector('#gerador')
+const proximo=document.querySelector('#proximo')
 mensagem.addEventListener('click',()=>{
     fetch(url).then((x)=>
     x.json()
     ).then((y)=>
-        document.getElementById('mensagem').innerText=y.slip.advice
+        document.getElementById('proximo').innerText=y.slip.advice
     );
 })
