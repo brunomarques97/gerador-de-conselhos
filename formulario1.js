@@ -1,7 +1,8 @@
-const mensagem='Ola bruno'
-const gerador= document.querySelector('#gerador')
-
-gerador.addEventListener('click',(gerador) => {
-    console.log(mensagem)
+fetch('https://api.adviceslip.com/advice').then(resposta=>{
+    return resposta.json()
+}).then(resposta2=>{
+    document.getElementById("mensagem").innerText=resposta2.advice
 })
+    
+
 
