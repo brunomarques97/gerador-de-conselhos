@@ -3,7 +3,9 @@ const max= 101
 let numero= Math.floor(Math.random() * (max-min))+min
 const proximo=document.querySelector('#proximo')
 const anterior=document.querySelector('#anterior')
-const copiar=document.querySelector('#copiar')
+const procura=document.querySelector('#procura')
+const input=document.querySelector("input")
+
 
 fetch("https://api.adviceslip.com/advice/"+ numero).then((promise)=>
     promise.json()).then((y)=>    
@@ -28,4 +30,13 @@ anterior.addEventListener('click',()=>{
     document.getElementById('mensagem').innerText=y.slip.advice
     );
     numero=anteriorID
+});
+procura.addEventListener('click',()=>{
+    let numerodigitado=input.value
+
+    fetch("https://api.adviceslip.com/advice/"+ numerodigitado).then((promise)=>
+    promise.json())
+    .then((y)=>
+    document.getElementById('mensagem').innerText=y.slip.advice
+    );
 });
