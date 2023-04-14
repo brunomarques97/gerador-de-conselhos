@@ -1,21 +1,21 @@
-.caixa {
-    background-color: black;
-    text-align: center;
-    background-position: center;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
-label{
-    size: 40px;
-    color: white;
-}
-
 body{
-    background-color: aquamarine;
-    text-align: center;
+    margin: 0;
+    font-size : 28px;
+    font-family: "https://fonts.google.com/specimen/Manrope";
 }
-button{
+.caixa {
+    display: flex;
+    height: 100px;
     width: 100px;
-    margin: 20px 100px;    
+  }
+.mensagem{
+    height: 50px;
+    width: 50px;
+}
+.caixa .sorteio{
+    background-image: url("./images/icon-dice.svg");
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
 }
