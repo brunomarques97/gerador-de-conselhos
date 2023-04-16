@@ -27,12 +27,12 @@ body{
     margin: 3em 1em;
     align-content: center;
     align-items: center;
+    justify-content: center;
 }
 .divisao{
     background-image: url("./images/pattern-divider-mobile.svg");
     background-repeat: no-repeat;
     height: 2em;
-    width: 100%;
     width: 100%;
     margin: auto 1em;
 }
@@ -45,9 +45,19 @@ body{
     border-radius: 100%;
     height: 1em;
     width: 1em;
+    cursor: grab;
 }
 .sorteio img{
     right: 4px;
     bottom: 3px;
     position: relative;
 }
+@media (min-width: 700px) {
+    .caixa {
+        margin: 6em 20em;
+        width: 20em;
+    }
+    .divisao{
+        margin: auto 5em;
+    }
+  }
