@@ -1,6 +1,9 @@
 # Frontend Mentor - News Home Page
 Projeto de gerador de mensagens de motivaçao feita em HTML, CSS e JavaScript, responsiva para mobile (375px) e desktop (1440px)
 
+# Link para o site
+"https://gerador-de-mensagens.netlify.app/"
+
 ## Visão Geral
 
 ### O Desafio
@@ -16,11 +19,8 @@ Os usuários devem ser capazes de:
 ### Propriedades
 
 - Mobile-first
-- Semântica HTML
-- CSS BEM
-- CSS Flexbox
-- CSS Grid
-- CSS Reaproveitável, limpo e flexível
+- HTML
+- CSS
 - Api 
 
 ## Autor
