@@ -1,4 +1,4 @@
-# Frontend Mentor - News Home Page
+# Frontend Mentor 
 Projeto de gerador de mensagens de motivaçao feita em HTML, CSS e JavaScript, responsiva para mobile (375px) e desktop (1440px)
 
 # Link para o site
